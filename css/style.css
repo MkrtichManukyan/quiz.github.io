@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --dark: #363636;
+    --gold: #FDAF17;
+    --blue: #2576A2;
+    --white: #ffffff;
+}
+.header-link-disign:hover{
+    color: var(--blue);
+}
+.activ:hover{
+    color: var(--blue);
+}
+.activ{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    margin: 0 25px;
+    color: var(--blue);
+    border-bottom: 5px solid var(--blue);
+}
+.header-link-disign{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    margin: 0 25px;
+    color: var(--dark);
+}
+.style-buttons-grup-home{
+    background-color: var(--gold);
+}
+.p-controlled{
+    color: var(--white);
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 58px;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+.p-controlled:hover{
+    cursor: default;
+}
+.p-controlled-two{
+    background-color: var(--blue);
+    border: 5px solid var(--blue);
+    color: var(--white);
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 58px;
+    border-radius: 20px;
+    padding: 0 20px;
+    margin-left: 15px;
+}
+.p-controlled-two:hover{
+    border: 5px solid var(--blue);
+    color: var(--white);
+    opacity: 0.8;
+}
+.style-home-text{
+    text-align: center;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 31px;
+    margin: auto;
+    color: var(--white);
+}
+.style-home-text-two{
+    font-family: 'Calibri';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: center;
+    color: var(--white);
+}
+.img-style-home img{
+    width: 100%;
+}
+.marquee-img{
+    background-color: var(--blue);
+}
+.text-disign{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: var(--blue);
+}
+.text-disign-two{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 39px;
+}
+.text-disign-thre{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 49px;
+}
+.fake-news-img{
+    background-image: url(../img/images.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    animation: 2s backInDown;
+}
+.text-style-info-one{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    text-align: left;
+    border-right: 5px solid var(--blue);
+}
+.text-style-info-two{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    text-align: right;
+}
+.text-style-info-thre{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+}
+.border-text-div{
+    border-bottom: 5px solid var(--blue);
+    padding-bottom: 20px;
+}
+.text-disign-fore{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+}
+.footer-stayl{
+    background-color: var(--blue);
+}
+.footer-stayl-logo{
+    border-bottom: 1px solid var(--white);
+}
+.color-footer ul li{
+    color: var(--white);
+    list-style: none;
+}
+.color-footer ul li a{
+    color: var(--white);
+    text-decoration: none;
+
+}
+.color-copirayt{
+    font-family: 'Calibri';
+    color: var(--white);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+}
+.animate-home-one{
+    animation: 2s backInLeft;
+}
+.animate-home-two{
+    animation: 2s backInRight;
+}
+.h1-text {
+    font-size: 55px;
+    color: #2576A2;
+}
+
+.contact div {
+    margin-bottom: 50px;
+}
+
+.contact, .contact a {
+    color: #2576A2;
+}
+
+form {
+    border: 3px solid #2576A2;
+}
+
+.submitbutton {
+    border: 3px solid #2576A2;
+    background-color: white;
+}
+
+.submitbutton:hover {
+    background-color: #2576A2;
+}
+.border-radius{
+    border: 2px solid #2576A2;
+    border-radius: 25px;
+    outline: none;
+    resize: none;
+    padding: 10px;
+}
+.animate-contact{
+    animation: 2s bounceInLeft;
+}
+.animate-contact-two{
+    animation: 2s bounceInRight;
+}
+.quizBox {
+    background-color: #FDAF17;
+}
+
+.quizBox,input,.skip,.submit {
+    border-radius: 20px;
+    border: 0;
+}
+
+input {
+    margin-bottom: 50px;
+}
+
+.skip,.submit {
+    width: 45%;
+    font-size: 24px;
+    color: white;
+}
+
+.skip {
+    background-color: #D50303;
+}
+.submit {
+    background-color: #2576A2;
+}
+
+#main {
+    display: none;    
+}
+
+.question {
+    font-size: 23px;
+}
+
+.quizblock {
+    background-color: #FDAF17;
+}
+
+.imageQuiz {
+    background-color: #FDAF17;
+}
+
+.helpingText {
+    font-size: 25px;
+}
+.quiz-animation{
+    animation: 2s zoomInUp;
+}

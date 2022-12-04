@@ -1,0 +1,44 @@
+@media (max-width: 1200px) {
+    .img-style-home{
+        width: 100%;
+    }
+    .p-controlled{
+        font-size: 35px;
+        text-align: center;
+    }
+    .style-home-text{
+        font-size: 25px;
+    }
+    .img-persons img{
+        width: 100%;
+    }
+    .text-disign{
+        font-size: 25px;
+    }
+    .border-text-div img{
+        display: none;
+    }
+    .width-100{
+        width: 100%;
+    }
+    .h1-text{
+        font-size: 35px;
+    }
+}
+@media (max-width: 576px) {
+    .p-controlled{
+        font-size: 25px;
+    }
+    .style-home-text{
+        font-size: 15px;
+    }
+    .style-home-text-two{
+        font-size: 15px;
+    }
+    .p-controlled-two{
+        font-size: 15px;
+    }
+    .flex-no{
+        flex-direction: column;
+    }
+}

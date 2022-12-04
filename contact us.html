@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="IT Center Ghukasavan">
+    <title>Confo</title>
+    <link rel="icon" type="image/jpg" href="img/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-xl ps-0 ps-lg-5 pe-0 pe-lg-5">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" id="mynavbar">
+            <div class="offcanvas-header">
+              <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body justify-content-end">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link header-link-disign" aria-current="page" href="info.html">Ինֆորմացիա</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link header-link-disign" aria-current="page" href="quiz.html">Հարցեր</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link activ" aria-current="page" href="contact us.html">Կապ մեզ հետ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link header-link-disign d-flex align-items-center" href="#">Գրանցում <img src="img/user.png" alt="user" class="ps-2"></a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="my-5 d-flex justify-content-around align-items-center flex-column flex-xl-row ps-0 ps-lg-5 pe-0 pe-lg-5">
+        <div class="d-flex flex-column justify-content-around animate-contact">
+            <p class="h1-text">Կապ Մեզ Հետ</p>
+            <div class="contact ms-5">
+                <div class="d-flex">
+                    <div><img src="img/telicon.png" alt="tel"></div>
+                    <div class="ms-4">
+                        <p>Հեռ․</p>
+                        <a href="tel:+37498425281" class="text-decoration-none">+37498425281</a>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div><img src="img/emailicon.png" alt="mail"></div>
+                    <div class="ms-4">
+                        <p>Էլ․ Հասցե</p>
+                        <a href="mailto:info@itcenterghukasavan.am"  class="text-decoration-none">info@itcenterghukasavan.am</a>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div><img src="img/emailicon.png" alt="mail"></div>
+                    <div class="ms-4">
+                        <p>Գրասենյակ</p>
+                        <p>Գյուղ Ղուկասավան,փողոց 15,շենք 2/3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="animate-contact-two">
+            <form action="#" class="p-5 rounded-4">
+                <div class="d-flex w-100">
+                    <div class="pe-2">
+                        <label for="name" class="d-block">Անուն</label>
+                        <input type="text" id="name" class="w-100 border-radius">
+                    </div>
+                    <div class="ps-2">
+                        <label for="email" class="d-block">Էլ․ Հասցե</label>
+                        <input type="email" id="email" class="w-100 border-radius">
+                    </div>
+                </div>
+                <div>
+                    <label for="subject">Թեմա</label>
+                    <input type="text" id="subject" class="w-100 border-radius">
+                </div>
+                <div>
+                    <label for="message" class="d-block">Նամակ</label>
+                    <textarea id="message" rows="8" class="w-100 border-radius"></textarea>
+                </div>
+                <button class="w-100 submitbutton border-radius">Ուղարկել</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="ps-0 ps-lg-5 pe-0 pe-lg-5 footer-stayl">
+            <div class="pt-5 d-flex justify-content-center footer-stayl-logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <div class="d-flex justify-content-between align-items-center flex-column flex-xl-row">
+                <div class="mt-5 color-footer">
+                    <ul>
+                        <li class="pt-2"><a href="">Էլ․ Հասցե՝ info@confo.am</a></li>
+                        <li class="pt-2"><a href="">Հեռ՝ +37498-42-52-81</a></li>
+                        <li class="pt-2">Պատրաստված է IT center Ghukasavan-ի կողմից։</li>
+                    </ul>
+                </div>
+                <div class="color-footer">
+                    <ul class="d-flex flex-no">
+                        <li class="pe-5"><a href="info.html">Ինֆորմացիա</a></li>
+                        <li class="pe-5"><a href="">Հարցեր</a></li>
+                        <li class="pe-5"><a href="">Կապ մեզ հետ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="m-0 color-copirayt">© 2022 | IT Center Ghukasavn</p>
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
