@@ -182,10 +182,10 @@
     text-align: center;
 }
 .animate-home-one{
-    animation: 2s backInLeft;
+    animation: 2s bounceInDown;
 }
 .animate-home-two{
-    animation: 2s backInRight;
+    animation: 2s zoomIn;
 }
 .h1-text {
     font-size: 55px;
@@ -220,10 +220,10 @@ form {
     padding: 10px;
 }
 .animate-contact{
-    animation: 2s bounceInLeft;
+    animation: 2s flipInX;
 }
 .animate-contact-two{
-    animation: 2s bounceInRight;
+    animation: 2s flipInY;
 }
 .quizBox {
     background-color: #FDAF17;
